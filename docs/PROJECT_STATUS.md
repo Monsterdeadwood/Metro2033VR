@@ -9,6 +9,16 @@ Reviewed **14 November 2026**. Documented branch: **Original Metro 2033 / local 
 - The powered-core branch recorded native flight, seven static rebounds, return and cleanup in the actual game with XR Sim, including a separate cold-start repeat.
 - Enemy-reaction checks are separate runs on one armed human; strong-hit recovery resumed original firing in the checked scenario.
 
+## Follow-up tests reviewed 16 November 2026
+
+Encounter and Blade used separate original-game XR Sim runs. Encounter checked a native armed human, weapon switching while holding, release, get-up, renewed firing and an electric hit. Blade observed contact damage on one actor and stereo contact sparks. The Force Combo package had fixture checks, with the combined shock/capture/hit/recovery scene still pending.
+
+Verification records used for this section
+
+- `METROVR_ENCOUNTER_XRSIM_20261115.json`
+- `METROVR_FORCE_COMBO_TEST_20261116/BLADE_VERIFICATION.json`
+- `METROVR_FORCE_COMBO_TEST_20261116/COMBO_VERIFICATION.json`
+
 ## Current limits
 
 - These experiments do not establish a complete playable campaign or physical-headset acceptance.

@@ -14,7 +14,7 @@
 
 An experimental VR and interaction project for the original PC Metro 2033. Current local work explores tracked interaction, original PhysX bodies, object flight, lighting and native enemy reactions.
 
-**Current documented branch: Original Metro 2033 / local interaction branches.**
+**Package baseline on this page: Original Metro 2033 / local interaction branches.**
 
 ## Installation
 
@@ -43,6 +43,11 @@ Current test-package availability is coordinated in Discord. Use the complete pa
 The complete package control sheet takes precedence for its version and interaction profile.
 
 </details>
+
+## Features in newer test builds
+
+- **Telekinesis and electricity in the left hand.** In an encounter test, an original human was held while the player changed weapons. The same enemy was released, got up and resumed firing. A separate shock sent native damage and impulses to the target.
+- **Contact damage from a tracked blade.** A separate XR Sim test measured native damage on one lab actor when the blade touched him, with no trigger press. The Force Combo package adds a selector for 17 experimental weapons. Its full combined combat sequence still needs a run.
 
 ## Current status
 
