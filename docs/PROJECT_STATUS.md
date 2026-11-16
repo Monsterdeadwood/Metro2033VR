@@ -40,10 +40,3 @@ This overview was reconciled against the project’s recorded package notes and 
 - `METRO_NATIVE_ENEMY_REACTIONS_20261114/REVIEW.txt`
 
 Game execution, simulator validation and physical-headset feedback are reported separately above. Features from a separate experimental branch are identified explicitly.
-
-## Кратко по-русски
-
-Экспериментальный проект VR и взаимодействий для оригинальной PC-версии Metro 2033. Локальная работа исследует взаимодействие от контроллеров, родные тела PhysX, полёт предметов, освещение и реакции врагов.
-
-- Эти эксперименты не подтверждают полностью игровую кампанию и принятие в физическом шлеме.
-- Все враги/мутанты, вооружённая поза после слабого удара, вся геометрия коллизии и звук/ощущения ещё требуют работы.
