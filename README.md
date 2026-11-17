@@ -1,103 +1,34 @@
 > [!IMPORTANT]
-> **[TEST BUILDS & DISCUSSION · FLAT2VR DISCORD](https://discord.gg/P4q9zt7ek)**
-> Testing, build requests, feedback and discussion happen in the **Flat2VR Modding Discord**. Join the server and find the **Metro 2033 VR** thread.
+> **TEST BUILDS & DISCUSSION**
+>
+> **[Join the Flat2VR Discord](https://discord.gg/P4q9zt7ek)**
+>
+> Ask for the matching test build and share feedback in the **Metro 2033 VR** discussion.
 
 <p align="center">
   <img src="assets/vr-banner.png" alt="Metro 2033 VR" width="690">
 </p>
 
-# Metro 2033 VR
+## INSTALLATION
 
-[Flat2VR Discord](https://discord.gg/P4q9zt7ek) · [All projects](PORTFOLIO.md)
+1. Install the original **Metro 2033** and arrange a test for that exact build in Flat2VR.
+2. Extract the full mod folder supplied for the experiment.
+3. Connect PC VR, select your OpenXR runtime and run the supplied **`RUN.bat`**.
 
-![Project status](assets/vr-status.svg)
+## FEATURES
 
-An experimental VR mod for the original Metro 2033 on PC. Research branches explore tracked interaction, telekinesis, the game’s PhysX bodies, object flight, lighting and enemy reactions.
+### TELEKINESIS & LIGHTNING
 
-**Package baseline on this page: Original Metro 2033 / local interaction branches.**
+Hold an enemy with your left hand while you change weapons. Release them back into the game’s AI, or shock a target with real damage and physical force in a separate test.
 
-## Installation
+### BLADE DAMAGE BY CONTACT
 
-1. Coordinate a **Metro 2033 Original** test in the game’s Flat2VR thread. Current physics branches are research prototypes, not a general release.
-2. Use the exact game build and complete test folder supplied for that experiment. Redux is a separate target.
-3. Connect the requested PC VR/OpenXR environment and launch the supplied **RUN.bat**.
-4. Follow the scenario-specific control notes and send the resulting logs/video to the Discord thread.
+A tracked blade dealt damage when it physically touched a test enemy, without a trigger press.
 
-Current test-package availability is coordinated in Discord. Use the complete package for your supported game build; this project page is separate from a release download.
+### A POWERED CORE LIGHTS THE WORLD
 
-## What this project brings to VR
+The core heats up, casts light on the scene and physically rebounds off walls in its own test build.
 
-- Original-game VR integration and tracked-interaction research.
-- A real native PhysX racket/body contact experiment with dynamic projectile flight and wall rebounds.
-- Powered-core heating/cooling and real light on the surrounding environment.
-- Separate native enemy-impact, fall and recovery experiments on a tested armed human.
+Each feature comes from a separate local prototype. These tests target Metro 2033 Original.
 
-<details>
-<summary><b>Controller quick reference</b></summary>
-
-| Input | Action |
-| --- | --- |
-| Supplied experiment controls | Use the control map for that specific branch |
-| Grip in the powered-core flight experiment | Request return of the experimental object |
-
-The complete package control sheet takes precedence for its version and interaction profile.
-
-</details>
-
-## Features in newer test builds
-
-- **Telekinesis and electricity in the left hand.** In an encounter test, an original human was held while the player changed weapons. The same enemy was released, got up and resumed firing. A separate shock sent native damage and impulses to the target.
-- **Contact damage from a tracked blade.** A separate XR Sim test measured native damage on one lab actor when the blade touched him, with no trigger press. The Force Combo package adds a selector for 17 experimental weapons. Its full combined combat sequence still needs a run.
-
-## Current status
-
-**Research prototype.** The powered-core branch recorded native flight, seven static rebounds, return and cleanup in the actual game with XR Sim, including a separate cold-start repeat.
-
-- These experiments do not establish a complete playable campaign or physical-headset acceptance.
-- Universal enemy/mutant reactions, weak-hit armed recovery, all collision geometry and sound/feel remain open.
-
-Physics and enemy-reaction branches keep their individual test scopes; features from different runs are not presented as one finished build.
-
-[Detailed status and validation scope](docs/PROJECT_STATUS.md)
-
-## Testing & feedback
-
-Post in the game’s [Flat2VR thread](https://discord.gg/P4q9zt7ek) with your **mod version, game/store version, headset, OpenXR runtime, GPU, reproduction steps and the package’s diagnostic ZIP**. A short video is helpful for visual or handling problems.
-
-<!-- COMMUNITY_TESTERS_START -->
-## ❤️ Community testers — thank you!
-
-These VR projects improve thanks to the people sharing test reports, logs, videos and practical feedback across the portfolio.
-
-alvaro · Arkturus [CODA] · Arkturus Primacronus [HD2M] · Arthur G [ORE] · Bestgamer3 · Chtiblue · creative name [SC℧M] · Derp Dog · DNana51 [R1Δ] · Gritt [F2VR] · headbangerle. · huligan01 · jeremiasadasmki · Kerin\_Serica [1984] · kilo · Lawyer [WYRD] · little\_boxbr · Lord Beardsteak · MeWhenINameMyself · MetalikSix · neoz\_1980 · Notagameaddict · Pelmeschka · Potato Pancake Person · ReseTV · Rusty Gere · SilentBang [LTS] · SilentVortigaunt · Terry · ThE LaNd GuLl · Thomas-3D-VR · Uruz [F2VR] · Willthethrill · wxorys\_ · Xavier H. G.
-
-[Full community credits, games, feedback contributors and testing volunteers](TESTERS.md).
-
-The linked list shows which games each person helped with. Thank you as well to everyone whose reports arrived without a public display name.
-
-<!-- COMMUNITY_TESTERS_END -->
-
-## Other VR mods by Monsterdeadwood
-
-| Game / project | Focus | Visibility |
-| --- | --- | --- |
-| [Assassin’s Creed VR](https://github.com/Monsterdeadwood/AC1VR) | First-person exploration, tracked climbing and sword interaction | Private |
-| [Crysis 2: VRevamp](https://github.com/Monsterdeadwood/C2VR) | Original Crysis 2 in VR with tracked weapons, physical melee and a spatial HUD | Public |
-| [Star Wars: The Force Unleashed II VR](https://github.com/Monsterdeadwood/TFU2VR) | Tracked dual lightsabers, telekinesis and Force powers | Public |
-| [NOVA · Counter-Strike: Global Offensive (Legacy) VR](https://github.com/Monsterdeadwood/CSGOVR) | Local 5v5 bot matches, motion-controlled aiming and haptics | Public |
-| [TimeShift VR](https://github.com/Monsterdeadwood/TimeShiftVR) | Controller-driven time powers, tracked weapons and roomscale posture | Public |
-| [You Are Empty: Absolute Edition VR](https://github.com/Monsterdeadwood/YouAreEmptyAEVR) | Absolute Edition with tracked weapons and melee with either hand | Public |
-| [Alone in the Dark (2008) VR](https://github.com/Monsterdeadwood/AloneInTheDark2008VR) | Tracked items, wall contact and the original throw controls | Public |
-| [Rainbow Six Siege VR](https://github.com/Monsterdeadwood/SiegeVR) | Shadow Legacy stereo and two-handed weapon handling | Public |
-| [Burnout Paradise Remastered VR](https://github.com/Monsterdeadwood/BUrnOutPvr) | Head-tracked stereo driving, vehicle menus and boost effects | Public |
-| [Titanfall 1 VR](https://github.com/Monsterdeadwood/Titanfall1VR) | R1Delta pilot aiming, stereo viewing and Titan cockpits | Public |
-| [Insurgency VR](https://github.com/Monsterdeadwood/InsurgencyVR) | Early VR mod project for stereo rendering and the game camera | Private |
-| [Counter-Strike: Source VR](https://github.com/Monsterdeadwood/CSSVR) | Early VR mod project for stereo rendering and head tracking | Private |
-
-Private repository links are available to invited collaborators. Public project pages are marked above.
-
-## Credits & development notes
-
-Project maintained by [Monsterdeadwood](https://github.com/Monsterdeadwood). This is an independent fan VR project; you need your own supported copy of the original game.
-
-Documentation reviewed: **14 November 2026**.
+[Other VR mods](PORTFOLIO.md) · [Tester credits](TESTERS.md) · [Build details](docs/PROJECT_STATUS.md)
