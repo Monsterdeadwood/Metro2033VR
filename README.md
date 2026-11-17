@@ -14,8 +14,8 @@
 ## 📦 INSTALLATION
 
 1. Install the original **Metro 2033** on PC.
-2. Extract the full mod folder from the Metro 2033 Discord thread.
-3. Connect PC VR, select your OpenXR runtime, and run **`RUN.bat`**.
+2. **Put the mod archive next to the game’s `.exe`.** Extract the complete archive there and keep the mod folder intact.
+3. Connect PC VR, select your OpenXR runtime, and run **`RUN.bat`** from the extracted mod folder.
 
 <a name="features"></a>
 
