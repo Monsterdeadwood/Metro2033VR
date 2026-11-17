@@ -1,9 +1,9 @@
 > [!IMPORTANT]
 > **TEST BUILDS & DISCUSSION**
 >
-> **[Join the Flat2VR Discord](https://discord.gg/P4q9zt7ek)**
+> **[Join the Flat2VR Discord](https://discord.gg/P4q9zt7ek)** · **[Open the Metro 2033 (2010) thread](https://discord.com/channels/747967102895390741/1550743551711645746)**
 >
-> Ask for the matching test build and share feedback in the **Metro 2033 VR** discussion.
+> Download the latest test build from the thread and share your results there.
 
 <p align="center">
   <img src="assets/vr-banner.png" alt="Metro 2033 VR" width="690">
